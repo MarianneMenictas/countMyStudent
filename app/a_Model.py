@@ -5,6 +5,7 @@ def ModelIt(F1=1, F2=3, F3=0, F4=7, F5=1, F6=1, F7=5, F8=0, F9="", F10="", F11="
   from sklearn.externals import joblib
 
   # Feed in pickle file from Multi-class Random Forest model fit:
+  # User must specify directory here:
   randForrestClf = joblib.load('directory/app/randForrestClf/randForrestClf.pkl')
   
   # Standardise input. Mean and standard deviation values taken from
